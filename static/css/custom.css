@@ -21,3 +21,9 @@ samp {
     font-family: var(--font-monospace);
     color: var(--code-fg);
 }
+
+/* Scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--base03) var(--base00);
+}
