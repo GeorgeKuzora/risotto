@@ -1,1 +1,23 @@
 /* Override this file to customise the theme's CSS for your site */
+
+:root {
+    /* Colors */
+    --text: #cdd6f4;
+    --subtext1: #bac2de;
+    --subtext0: #a6adc8;
+
+	/* Background */
+	--code-bg: var(--base00);
+
+	/* Text */
+	--code-fg: var(--subtext1);
+}
+/* Code */
+pre,
+code,
+kbd,
+samp {
+    background: var(--code-bg) !important;
+    font-family: var(--font-monospace);
+    color: var(--code-fg);
+}
